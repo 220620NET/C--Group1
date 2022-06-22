@@ -5,7 +5,8 @@ string pickedNumber = Console.ReadLine();
 
 // THE STRING MUST BE CONVERTED TO AN INT AT SOME POINT
 
-int newNum = Convert.ToInt32(pickedNumber);
+// int newNum = Convert.ToInt32(pickedNumber);
+int newNum = int.Parse(pickedNumber);
 
 int theNum = newNum;
 
